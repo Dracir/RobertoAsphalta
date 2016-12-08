@@ -1,0 +1,13 @@
+[Tt]emp/
+[Bb]uild/
+[Bb]uilds/
+[Bb]in/
+[Oo]bj/
+[Ll]ibrary/
+.vs/
+.git/
+
+.csproj
+.sln
+.csproj.user
+.suo
