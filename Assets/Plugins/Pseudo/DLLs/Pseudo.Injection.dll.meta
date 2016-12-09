@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: f4d32f064080ea9439f2fafb049fc46b
+timeCreated: 1475037463
+licenseType: Free
+PluginImporter:
+  serializedVersion: 1
+  iconMap: {}
+  executionOrder:
+    Pseudo.Injection.GlobalRoot: -9999
+    Pseudo.Injection.SceneRoot: -9998
+  isPreloaded: 0
+  platformData:
+    Any:
+      enabled: 1
+      settings: {}
+    Editor:
+      enabled: 0
+      settings:
+        DefaultValueInitialized: true
+    WindowsStoreApps:
+      enabled: 0
+      settings:
+        CPU: AnyCPU
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
