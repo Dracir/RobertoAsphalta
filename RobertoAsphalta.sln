@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobertoAsphalta.Plugins", "RobertoAsphalta.Plugins.csproj", "{34859676-A814-1926-641E-AD4ADE7BD2E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobertoAsphalta", "RobertoAsphalta.csproj", "{5325B0FC-CEA0-09DC-417F-83AB96D2E806}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobertoAsphalta.Editor.Plugins", "RobertoAsphalta.Editor.Plugins.csproj", "{DCECEEBC-FB51-803F-4BA8-C6498EEF6E3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34859676-A814-1926-641E-AD4ADE7BD2E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34859676-A814-1926-641E-AD4ADE7BD2E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34859676-A814-1926-641E-AD4ADE7BD2E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34859676-A814-1926-641E-AD4ADE7BD2E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5325B0FC-CEA0-09DC-417F-83AB96D2E806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5325B0FC-CEA0-09DC-417F-83AB96D2E806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5325B0FC-CEA0-09DC-417F-83AB96D2E806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5325B0FC-CEA0-09DC-417F-83AB96D2E806}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCECEEBC-FB51-803F-4BA8-C6498EEF6E3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCECEEBC-FB51-803F-4BA8-C6498EEF6E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCECEEBC-FB51-803F-4BA8-C6498EEF6E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCECEEBC-FB51-803F-4BA8-C6498EEF6E3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
