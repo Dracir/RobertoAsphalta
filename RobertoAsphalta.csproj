@@ -13,11 +13,13 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile></CompilerResponseFile>
+    <CompilerResponseFile>
+    </CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
     <UnityVersion>5.5.0f3</UnityVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -52,9 +54,6 @@
     <Reference Include="UnityEngine">
       <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -69,9 +68,6 @@
     </Reference>
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VR">
       <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
@@ -126,13 +122,18 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Objects\Activator.cs" />
-    <Compile Include="Assets\Scripts\Objects\IActivable.cs" />
+    <Compile Include="Assets\Scripts\MapLoader\EventLoaderBase.cs" />
+    <Compile Include="Assets\Scripts\Objects\Activator\Activator.cs" />
+    <Compile Include="Assets\Scripts\Objects\Activator\SpriteTogleActivator.cs" />
+    <Compile Include="Assets\Scripts\Objects\Activator\IActivable.cs" />
+    <Compile Include="Assets\Scripts\Objects\Activator\ToggleRoomActivator.cs" />
     <Compile Include="Assets\Scripts\Objects\LaserSource.cs" />
     <Compile Include="Assets\Scripts\Objects\Mirror.cs" />
     <Compile Include="Assets\Scripts\Objects\Stabilizer.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerControl.cs" />
-    <Compile Include="Assets\Scripts\test\a.cs" />
+    <Compile Include="Assets\Scripts\Room\MovableRoom.cs" />
+    <Compile Include="Assets\Scripts\MapLoader\MovableRoomLoader.cs" />
+    <Compile Include="Assets\Scripts\Room\RoomMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\3rd Party\Rewired\Documentation\ReadMe.txt" />
